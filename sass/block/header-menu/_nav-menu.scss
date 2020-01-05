@@ -1,0 +1,42 @@
+
+
+
+
+.header-menu {
+	display: flex;
+	width: 472px;
+
+}
+
+.header-menu {
+	.nav-list {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	li {
+		list-style: none;
+		font-size: 17px;
+		min-height: 90px;
+		padding-top: 35px;
+    	box-sizing: border-box;
+		width: 236px;
+	}
+
+
+	li:nth-child(1) {
+		border-right: 1px solid #e7e7e7;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000000;
+		font-weight: bold;
+  		line-height: 1.412;
+ 
+	}
+}
+
+

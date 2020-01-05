@@ -1,0 +1,54 @@
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Mishka - форма обратной связи</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+    <body>
+    	<div class="container">
+	        <header>
+	            <div class="catalog-logo"></div>
+	            <div class="header-manu"></div>
+	        </header>
+	        <h1 class="title-form">Вязание на заказ</h1>
+	        <p class="description-form">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+	        <form method="post" action="form.php">
+	            <span class="description-form">Тип</span>
+	            <label>
+	            <input type="radio" name="type" value="interior-accessories">Аксессуар для интерьера
+	            </label>
+	            <label>
+	            <input type="radio" name="type" value="child-play"> Детская игрушка 
+	            </label>
+	            <span class="description-form">Цвет</span>
+	            <label>
+	            <input type="checkbox" name="color" value="white"> Белый
+	            </label>
+	             <label>
+	            <input type="checkbox" name="color" value="grey"> Серый
+	            </label>
+	             <label>
+	            <input type="checkbox" name="color" value="tiffani"> "Тиффани"
+	            </label>
+	             <label>
+	            <input type="checkbox" name="color" value="black"> Черный
+	            </label>
+	             <label>
+	            <input type="checkbox" name="color" value="pink"> Розовый
+	            </label>
+	             <label>
+	                 <input type="checkbox" name="color" value="orange"> Оранжевый
+	            </label>
+	            <span class="description-form">ФИО</span>
+	           <input type="text" name="name">
+	            <span class="description-form">Тел</span>
+	            <input type="tel" name="tel">
+	            <span class="description-form">E-mail</span>
+	            <input type="email" name="email">
+	            <span class="description-form">Доп</span>
+	            <input type="textarea" name="additional">
+	        </form>
+	    </div>
+    </body>
+</html>

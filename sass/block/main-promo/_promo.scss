@@ -1,0 +1,47 @@
+.main-promo {
+	width: 100%;
+	display: flex;
+	
+	flex-wrap: wrap;
+}
+
+.main-promo-container {
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.promo-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.promo-list__item {
+	list-style: none;
+	padding-left: 50px;
+    box-sizing: border-box;
+    width: 236px;
+}
+
+.free-delivery {
+	font-size: 15px;
+
+}
+
+.main-promo__text {
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding-top: 125px;
+	font-size: 50px;
+	padding-bottom: 240px;
+}
+
+.promo-menu {
+	width: 100%;
+	font-weight: bold;
+  	line-height: 1.075;
+  	color: #000;
+}

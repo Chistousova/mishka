@@ -1,0 +1,10 @@
+.main-promo {
+  width: 100%; }
+
+.promo-list {
+  display: flex; }
+
+.promo-list__item {
+  list-style: none; }
+
+/*# sourceMappingURL=promo.css.map */

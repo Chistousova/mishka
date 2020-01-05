@@ -1,0 +1,22 @@
+.header-menu__cart {
+	min-height: 90px;
+	padding-top: 35px;
+	box-sizing: border-box;
+	width: 320px;
+	border-left: 1px solid #e7e7e7;
+	font-weight: bold;
+	padding-left: 85px;
+}
+
+.cart {
+	position: relative;
+}
+
+.cart {
+
+	&:before {
+		position:absolute;
+		content: "";
+
+	}
+}
